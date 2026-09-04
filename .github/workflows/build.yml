@@ -18,10 +18,10 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Gradle einrichten
+      -       - name: Gradle einrichten
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: 8.13
+          gradle-version: current
 
       - name: Mod bauen
         run: gradle build --stacktrace
