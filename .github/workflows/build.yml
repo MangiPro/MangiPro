@@ -18,7 +18,7 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      -       - name: Gradle einrichten
+      - name: Gradle einrichten
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: current
